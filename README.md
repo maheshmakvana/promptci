@@ -242,6 +242,19 @@ Python 3.8+ · No external dependencies (stdlib + pydantic)
 
 ---
 
+## Changelog
+
+### v1.1.3 (2026-04-10)
+- Added Changelog section to README for release traceability
+- SEO improvements: prompt versioning, CI/CD regression gate, LLM prompt management
+
+### v1.1.0
+- Renamed module to `promptci` to match PyPI package name
+- Added schema migration, PII scrubbing, quality gates, full observability
+
+### v1.0.0
+- Initial release: prompt versioning, diff, test, deploy
+
 ## License
 
 MIT
