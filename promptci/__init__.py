@@ -1,5 +1,5 @@
 """
-promptregistry — Prompt Versioning with CI/CD & Regression Gates.
+promptci — Prompt Versioning with CI/CD & Regression Gates.
 
 Manage, version, test, and deploy prompts with structured quality gates,
 diff tracking, schema evolution, and production observability.
@@ -22,7 +22,7 @@ from promptci.gates import (
 )
 from promptci.diff import diff_prompts, diff_to_unified
 from promptci.exceptions import (
-    PromptRegistryError,
+    PromptCIError,
     PromptNotFoundError,
     VersionConflictError,
     RegressionGateError,
@@ -66,7 +66,7 @@ __all__ = [
     # Diff
     "diff_prompts", "diff_to_unified",
     # Exceptions
-    "PromptRegistryError", "PromptNotFoundError", "VersionConflictError",
+    "PromptCIError", "PromptNotFoundError", "VersionConflictError",
     "RegressionGateError", "ValidationError", "RenderError",
     # Advanced
     "PromptCache", "PromptPipeline", "PromptRule", "PromptValidator",

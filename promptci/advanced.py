@@ -1,5 +1,5 @@
 """
-Advanced features for promptregistry — 2026 Standard.
+Advanced features for promptci — 2026 Standard.
 
 Covers: Caching, Pipeline, Validation & Schema, Async & Concurrency,
 Observability, Streaming & Storage, Diff & Regression, Security & Cost.

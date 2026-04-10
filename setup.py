@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="promptci",
-    version="1.1.0",
+    version="1.1.3",
     description="Prompt versioning with CI/CD regression gates — version, test, diff, and deploy prompts with quality gates, schema evolution, PII scrubbing, and full observability",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",

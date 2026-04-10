@@ -1,4 +1,4 @@
-"""Tests for promptregistry core and advanced features."""
+"""Tests for promptci core and advanced features."""
 import asyncio
 import pytest
 from promptci.models import PromptStatus, PromptVersion

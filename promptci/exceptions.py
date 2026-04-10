@@ -1,25 +1,25 @@
 """Exceptions for promptci."""
 
 
-class PromptRegistryError(Exception):
+class PromptCIError(Exception):
     """Base exception for promptci."""
 
 
-class PromptNotFoundError(PromptRegistryError):
+class PromptNotFoundError(PromptCIError):
     """Raised when a prompt version or name does not exist."""
 
 
-class VersionConflictError(PromptRegistryError):
+class VersionConflictError(PromptCIError):
     """Raised when a version already exists and overwrite is disallowed."""
 
 
-class RegressionGateError(PromptRegistryError):
+class RegressionGateError(PromptCIError):
     """Raised when a prompt fails a regression quality gate."""
 
 
-class ValidationError(PromptRegistryError):
+class ValidationError(PromptCIError):
     """Raised when prompt metadata or content fails validation."""
 
 
-class RenderError(PromptRegistryError):
+class RenderError(PromptCIError):
     """Raised when template rendering fails."""

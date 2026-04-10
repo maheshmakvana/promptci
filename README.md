@@ -1,20 +1,20 @@
-# promptregistry
+# promptci
 
 **Prompt versioning with CI/CD regression gates — for production LLM engineering.**
 
 Version, diff, test, and deploy prompts with quality gates, schema migration, PII scrubbing, and full observability.
 
 ```bash
-pip install promptregistry
+pip install promptci
 ```
 
 ---
 
-## Why promptregistry?
+## Why promptci?
 
 In 2026, prompt changes are the most common cause of silent LLM regressions. Teams edit prompts in Google Docs, paste them into code, and ship — with zero version control, no diff visibility, and no quality gates. When output quality degrades, nobody knows which prompt change caused it.
 
-`promptregistry` brings software engineering discipline to prompt management.
+`promptci` brings software engineering discipline to prompt management.
 
 ---
 
@@ -235,7 +235,7 @@ registry.load("registry.json")
 ## Installation
 
 ```bash
-pip install promptregistry
+pip install promptci
 ```
 
 Python 3.8+ · No external dependencies (stdlib + pydantic)
